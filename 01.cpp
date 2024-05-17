@@ -3,7 +3,7 @@
 #include "stdlib.h"
 #include "time.h"
 #include "string.h"
-#include "math.h"
+#include "math.h" 
 
 #define GetRandomNum(maxNum) rand() % 10001 / 10000.0 * maxNum
 #define GetRandomOp(opChar) opChar[rand() % strlen(opChar)]
